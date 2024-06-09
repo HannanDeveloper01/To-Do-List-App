@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List App</title>
+</head>
+<body>
+    <main>
+        <form class="addForm">
+            <input type="text" name="todoName" id="todoName" placeholder="Add a new task">
+            <button type="submit"><i class="fa-regular fa-plus"></i></button>
+        </form>
+        <div class="tasks-to-do">
+            <h3>Tasks to do</h3>
+            <div class="tasks-container" id="tasks-to-do-container"></div>
+        </div>
+        <div class="done">
+            <div class="title-bar">
+                <h3>Done</h3>
+                <button aria-details="Delete All" id="clear-completed"><i class="fa-regular fa-trash"></i></button>
+            </div>
+            <div class="tasks-container" id="done-container"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
