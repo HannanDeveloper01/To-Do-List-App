@@ -27,5 +27,5 @@ You will need a modern web browser to view and interact with the app.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-github-username/to-do-list-app.git
+   git clone https://github.com/HannanDeveloper01/To-Do-List-App.git
    ```
